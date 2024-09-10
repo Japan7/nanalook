@@ -10,7 +10,7 @@ const eventSources = props.projection.participants.map(
       id: p.discord_username,
       url: `/api/calendars/${p.discord_id_str}`,
       format: "ics",
-      color: uniqolor(p.discord_id_str).color,
+      color: uniqolor(p.id).color,
     } satisfies EventSourceInput)
 );
 </script>
