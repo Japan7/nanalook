@@ -1,6 +1,11 @@
 {
-  "name": "nuxt-app",
+  "name": "nanalook",
   "private": true,
+  "license": "AGPL-3.0-only",
+  "repository": "github:Japan7/nanalook",
+  "contributors": [
+    "NextFire <git@yuru.moe>"
+  ],
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -10,8 +15,19 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "nuxt": "^3.13.0",
-    "vue": "latest",
-    "vue-router": "latest"
+    "@fullcalendar/core": "6.1.15",
+    "@fullcalendar/icalendar": "6.1.15",
+    "@fullcalendar/interaction": "6.1.15",
+    "@fullcalendar/timegrid": "6.1.15",
+    "@fullcalendar/vue3": "6.1.15",
+    "@heroicons/vue": "2.1.5",
+    "@nuxtjs/tailwindcss": "6.12.1",
+    "daisyui": "4.12.10",
+    "ical.js": "1.5.0",
+    "nuxt": "3.13.1",
+    "openapi-fetch": "0.12.0",
+    "uniqolor": "1.1.1",
+    "vue": "3.5.3",
+    "vue-router": "4.4.3"
   }
 }
