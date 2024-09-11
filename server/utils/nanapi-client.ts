@@ -36,7 +36,7 @@ export async function authRetry<T extends FetchResponse<any, any, any>>(
   makeReq: () => Promise<T>
 ) {
   let res;
-  while (true) {
+  for (let i = 0; i < 3; i++) {
     res = await makeReq();
     if (res.response.status === 401) {
       access_token = "";
@@ -44,6 +44,9 @@ export async function authRetry<T extends FetchResponse<any, any, any>>(
       return res;
     }
   }
+  throw new Error(
+    `Failed to authenticate after 3 attempts: ${res?.response.status}`
+  );
 }
 
 export const nanapi = createClient<paths>({ baseUrl: config.nanapiUrl });
