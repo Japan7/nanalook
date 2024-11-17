@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const props = defineProps<{ projection: Projection }>();
+const props = defineProps<{ users: User[] }>();
 
-const eventSources = toEventSources(props.projection.participants);
+const eventSources = toEventSources(props.users);
 </script>
 
 <template>

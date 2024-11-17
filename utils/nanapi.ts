@@ -6,3 +6,4 @@ type InternalApi<
 > = _InternalApi[P][M] extends infer T | undefined ? T : never;
 
 export type Projection = InternalApi<"/api/projections/:id", "get">;
+export type User = InternalApi<"/api/users", "get">[number];
