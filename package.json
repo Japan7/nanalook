@@ -20,7 +20,7 @@
     "@fullcalendar/interaction": "6.1.15",
     "@fullcalendar/timegrid": "6.1.15",
     "@fullcalendar/vue3": "6.1.15",
-    "@heroicons/vue": "2.1.5",
+    "@heroicons/vue": "2.2.0",
     "@nuxtjs/tailwindcss": "6.12.2",
     "daisyui": "4.12.14",
     "nuxt": "3.14.159",
