@@ -24,7 +24,7 @@
     "@fullcalendar/vue3": "6.1.17",
     "@heroicons/vue": "2.2.0",
     "@nuxtjs/tailwindcss": "6.13.2",
-    "daisyui": "4.12.24",
+    "daisyui": "5.0.12",
     "nuxt": "3.16.2",
     "openapi-fetch": "0.13.5",
     "openapi-typescript": "7.6.1",
