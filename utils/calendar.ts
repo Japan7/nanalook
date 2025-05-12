@@ -8,9 +8,9 @@ export function toEventSources(users: User[]) {
       (p) =>
         ({
           id: p.discord_username,
-          url: `/api/calendars/${p.discord_id_str}`,
+          url: `/api/calendars/${p.discord_id}`,
           format: "ics",
-          color: uniqolor(p.discord_id_str).color,
+          color: uniqolor(p.discord_id).color,
         } satisfies EventSourceInput)
     );
 }

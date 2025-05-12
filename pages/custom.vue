@@ -14,7 +14,7 @@ const users = computed(() => {
     return;
   }
   const ids = query.split(",");
-  return allUsers.value?.filter((user) => ids.includes(user.discord_id_str));
+  return allUsers.value?.filter((user) => ids.includes(user.discord_id));
 });
 </script>
 
