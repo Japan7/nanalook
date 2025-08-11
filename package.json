@@ -27,7 +27,7 @@
     "daisyui": "4.12.24",
     "nuxt": "4.0.3",
     "openapi-fetch": "0.14.0",
-    "openapi-typescript": "7.8.0",
+    "openapi-typescript": "7.9.0",
     "tippy.js": "6.3.7",
     "typescript": "5.9.2",
     "uniqolor": "1.1.1",
