@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import type { User } from "~/utils/nanapi";
+
 const route = useRoute();
 
 const { data: allUsers, status } = await useFetch("/api/users");
@@ -14,7 +16,7 @@ const users = computed(() => {
     return;
   }
   const ids = query.split(",");
-  return allUsers.value?.filter((user) => ids.includes(user.discord_id));
+  return allUsers.value?.filter((user: User) => ids.includes(user.discord_id));
 });
 </script>
 
