@@ -32,7 +32,7 @@
     "typescript": "5.9.3",
     "uniqolor": "1.1.1",
     "vue": "3.5.35",
-    "vue-router": "5.0.7",
+    "vue-router": "5.1.0",
     "vue-tsc": "3.3.2"
   }
 }
