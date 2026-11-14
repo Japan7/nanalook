@@ -27,7 +27,7 @@
     "openapi-fetch": "0.17.0",
     "temporal-polyfill": "1.0.8",
     "tippy.js": "6.3.7",
-    "typescript": "6.0.3",
+    "typescript": "7.0.2",
     "uniqolor": "1.1.1",
     "vue": "3.5.45",
     "vue-router": "5.5.0",
