@@ -14,7 +14,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "typecheck": "nuxt typecheck",
-    "codegen": "openapi-typescript -o server/utils/nanapi.d.ts"
+    "codegen": "npx openapi-typescript@7.13.0 -o server/utils/nanapi.d.ts"
   },
   "dependencies": {
     "@fullcalendar/icalendar": "7.1.5",
@@ -25,7 +25,6 @@
     "ical.js": "2.2.1",
     "nuxt": "4.6.2",
     "openapi-fetch": "0.17.0",
-    "openapi-typescript": "7.13.0",
     "temporal-polyfill": "1.0.8",
     "tippy.js": "6.3.7",
     "typescript": "5.9.3",
