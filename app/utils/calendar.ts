@@ -1,4 +1,4 @@
-import type { EventSourceInput } from "@fullcalendar/core/index.js";
+import type { EventSourceInput } from "@fullcalendar/vue3";
 import uniqolor from "uniqolor";
 
 export function toEventSources(users: User[]) {
@@ -11,6 +11,6 @@ export function toEventSources(users: User[]) {
           url: `/api/calendars/${p.discord_id}`,
           format: "ics",
           color: uniqolor(p.discord_id).color,
-        } satisfies EventSourceInput)
+        }) satisfies EventSourceInput,
     );
 }
