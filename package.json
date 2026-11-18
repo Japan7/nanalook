@@ -16,15 +16,16 @@
     "typecheck": "nuxt typecheck",
     "codegen": "npx openapi-typescript@7.13.0 -o server/utils/nanapi.d.ts"
   },
-  "dependencies": {
+  "devDependencies": {
     "@fullcalendar/icalendar": "7.1.5",
     "@fullcalendar/vue3": "7.1.5",
     "@heroicons/vue": "2.2.0",
-    "@nuxtjs/tailwindcss": "6.14.0",
-    "daisyui": "4.12.24",
+    "@tailwindcss/vite": "4.3.5",
+    "daisyui": "5.8.1",
     "ical.js": "2.2.1",
     "nuxt": "4.6.4",
     "openapi-fetch": "0.17.0",
+    "tailwindcss": "4.3.5",
     "temporal-polyfill": "1.0.8",
     "tippy.js": "6.3.7",
     "typescript": "6.0.3",
